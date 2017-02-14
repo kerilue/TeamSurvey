@@ -1,6 +1,6 @@
 # TeamSurvey
 
-![]()
+![](https://github.com/kerilue/TeamSurvey/blob/master/TeamSurveyStuffYaKnow.gif)
 
 ## Features
 
