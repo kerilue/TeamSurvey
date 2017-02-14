@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277416D71E439EAC000DF5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416D61E439EAC000DF5CB /* AppDelegate.swift */; };
+		277416DC1E439EAC000DF5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277416DA1E439EAC000DF5CB /* Main.storyboard */; };
+		277416DE1E439EAC000DF5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277416DD1E439EAC000DF5CB /* Assets.xcassets */; };
+		277416E11E439EAC000DF5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277416DF1E439EAC000DF5CB /* LaunchScreen.storyboard */; };
+		277416E91E43A501000DF5CB /* TeamTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416E81E43A501000DF5CB /* TeamTableVC.swift */; };
+		277416EB1E43A63C000DF5CB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416EA1E43A63C000DF5CB /* Team.swift */; };
+		277416ED1E43AE55000DF5CB /* TeamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416EC1E43AE55000DF5CB /* TeamDetailVC.swift */; };
+		277416EF1E48F069000DF5CB /* AddTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416EE1E48F069000DF5CB /* AddTeamVC.swift */; };
+		277416F11E48F0EA000DF5CB /* AutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416F01E48F0EA000DF5CB /* AutoVC.swift */; };
+		277416F31E48F107000DF5CB /* TeleopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277416F21E48F107000DF5CB /* TeleopVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		277416D31E439EAC000DF5CB /* TeamSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277416D61E439EAC000DF5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277416DB1E439EAC000DF5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277416DD1E439EAC000DF5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277416E01E439EAC000DF5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277416E21E439EAC000DF5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277416E81E43A501000DF5CB /* TeamTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableVC.swift; sourceTree = "<group>"; };
+		277416EA1E43A63C000DF5CB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		277416EC1E43AE55000DF5CB /* TeamDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailVC.swift; sourceTree = "<group>"; };
+		277416EE1E48F069000DF5CB /* AddTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamVC.swift; sourceTree = "<group>"; };
+		277416F01E48F0EA000DF5CB /* AutoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoVC.swift; sourceTree = "<group>"; };
+		277416F21E48F107000DF5CB /* TeleopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeleopVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277416D01E439EAB000DF5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277416CA1E439EAB000DF5CB = {
+			isa = PBXGroup;
+			children = (
+				277416D51E439EAC000DF5CB /* TeamSurvey */,
+				277416D41E439EAC000DF5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277416D41E439EAC000DF5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277416D31E439EAC000DF5CB /* TeamSurvey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277416D51E439EAC000DF5CB /* TeamSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				277416D61E439EAC000DF5CB /* AppDelegate.swift */,
+				277416DA1E439EAC000DF5CB /* Main.storyboard */,
+				277416DD1E439EAC000DF5CB /* Assets.xcassets */,
+				277416DF1E439EAC000DF5CB /* LaunchScreen.storyboard */,
+				277416E21E439EAC000DF5CB /* Info.plist */,
+				277416E81E43A501000DF5CB /* TeamTableVC.swift */,
+				277416EA1E43A63C000DF5CB /* Team.swift */,
+				277416EC1E43AE55000DF5CB /* TeamDetailVC.swift */,
+				277416EE1E48F069000DF5CB /* AddTeamVC.swift */,
+				277416F01E48F0EA000DF5CB /* AutoVC.swift */,
+				277416F21E48F107000DF5CB /* TeleopVC.swift */,
+			);
+			path = TeamSurvey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277416D21E439EAB000DF5CB /* TeamSurvey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277416E51E439EAC000DF5CB /* Build configuration list for PBXNativeTarget "TeamSurvey" */;
+			buildPhases = (
+				277416CF1E439EAB000DF5CB /* Sources */,
+				277416D01E439EAB000DF5CB /* Frameworks */,
+				277416D11E439EAB000DF5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeamSurvey;
+			productName = TeamSurvey;
+			productReference = 277416D31E439EAC000DF5CB /* TeamSurvey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277416CB1E439EAB000DF5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Keri-Anne Lue";
+				TargetAttributes = {
+					277416D21E439EAB000DF5CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 277416CE1E439EAB000DF5CB /* Build configuration list for PBXProject "TeamSurvey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277416CA1E439EAB000DF5CB;
+			productRefGroup = 277416D41E439EAC000DF5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277416D21E439EAB000DF5CB /* TeamSurvey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277416D11E439EAB000DF5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277416E11E439EAC000DF5CB /* LaunchScreen.storyboard in Resources */,
+				277416DE1E439EAC000DF5CB /* Assets.xcassets in Resources */,
+				277416DC1E439EAC000DF5CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277416CF1E439EAB000DF5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277416ED1E43AE55000DF5CB /* TeamDetailVC.swift in Sources */,
+				277416E91E43A501000DF5CB /* TeamTableVC.swift in Sources */,
+				277416F31E48F107000DF5CB /* TeleopVC.swift in Sources */,
+				277416EB1E43A63C000DF5CB /* Team.swift in Sources */,
+				277416EF1E48F069000DF5CB /* AddTeamVC.swift in Sources */,
+				277416D71E439EAC000DF5CB /* AppDelegate.swift in Sources */,
+				277416F11E48F0EA000DF5CB /* AutoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		277416DA1E439EAC000DF5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277416DB1E439EAC000DF5CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		277416DF1E439EAC000DF5CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277416E01E439EAC000DF5CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277416E31E439EAC000DF5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		277416E41E439EAC000DF5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		277416E61E439EAC000DF5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeamSurvey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerianne.TeamSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		277416E71E439EAC000DF5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeamSurvey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerianne.TeamSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277416CE1E439EAB000DF5CB /* Build configuration list for PBXProject "TeamSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277416E31E439EAC000DF5CB /* Debug */,
+				277416E41E439EAC000DF5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277416E51E439EAC000DF5CB /* Build configuration list for PBXNativeTarget "TeamSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277416E61E439EAC000DF5CB /* Debug */,
+				277416E71E439EAC000DF5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277416CB1E439EAB000DF5CB /* Project object */;
+}
