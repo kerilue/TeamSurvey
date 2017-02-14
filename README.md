@@ -12,7 +12,7 @@
 
 1. Tap on a checklist item to add/remove a checkmark
 2. Tap + to add a new checklist item
-3. Swip to delete
+3. Swipe to delete
 
 ## Compatability
 
